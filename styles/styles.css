@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400..900&display=swap");
+body {
+  font-family: "orbitron";
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fondo1 {
+  background-color: #211f2a;
+}
+
+.fondo2 {
+  background-image: url(./../assets/multimedia/Fondo.jpg);
+}
+
+.bordes {
+  border: 5px ridge black;
+  border-radius: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+th,
+td,
+li,
+p,
+textarea,
+label,
+legend,
+select {
+  color: rgb(212, 227, 255);
+  text-shadow: 2px 2px black;
+}
+
+h1 {
+  text-shadow: 5px 2px 3px rgba(136, 156, 164, 0.438);
+  margin: 0;
+  padding: 0;
+}
+
+button,
+body,
+th {
+  background-color: black;
+}
+
+h2 {
+  text-align: center;
+}
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+th {
+  text-align: left;
+  background-color: rgb(129, 131, 250);
+}
+td {
+  background-color: #211f2a;
+}
+table {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+ul li a {
+  margin-right: 10px;
+  color: rgb(129, 131, 250);
+  text-shadow: 2px 1px 3px rgba(205, 242, 255, 0.438);
+  text-decoration: none;
+}
+
+/*box model*/
+
+.header__logo {
+  width: 80px;
+  height: 80px;
+}
+
+.header__titulo {
+  font-size: 200%;
+  width: 400px;
+  height: 40px;
+}
+
+.header__menu li {
+  display: inline-block;
+  font-size: 140%;
+}
+.header__menu {
+  width: 800px;
+  height: 55px;
+
+}
+
+.videos {
+  width: 600px;
+  height: 600px;
+}
+
+.footer_imagenes {
+  width: 500px;
+  height: 100px;
+  text-align: center;
+}
+.footer_titulo {
+  width: 350px;
+  height: 60px;
+}
+.box_formulario {
+  width: 410px;
+  height: 400px;
+}
+
+.box_campeon {
+  height: 450px;
+  width: 260px;
+}
+/*flex_box*/
+
+.flex_box {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.flex_box2 {
+  display: flex;
+  height: 80%;
+  width: 100%;
+  flex-flow: column wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/*Grid*/
+
+.grid {
+  display: grid;
+  width: 95%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  justify-content: space-evenly;
+  align-content: space-around;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*pseudoclases*/
+ul li a:active,
+img:active,
+input:focus {
+  background-color: rgb(212, 227, 255);
+}
+
+img:hover,
+iframe:hover {
+  border-color: rgb(129, 131, 250);
+  border-radius: 40px;
+}
+
+a:hover {
+  font-size: 110%;
+}
+h1:hover {
+  font-size: 200%;
+}
