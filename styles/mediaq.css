@@ -2,6 +2,7 @@
   .flex_box {
     flex-flow: column wrap;
     text-align: center;
+    height: 300px;
   }
   .header__menu,
   .main_subtitulo {
@@ -23,12 +24,16 @@
   iframe {
     scale: 60%;
   }
+  .carousel-item{
+    width: 300px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 600px) {
   .flex_box {
     flex-flow: column wrap;
     text-align: center;
+    height: 300px;
   }
   .header__menu,
   .main_subtitulo {
@@ -49,6 +54,9 @@
   }
   iframe {
     scale: 65%;
+  }
+  .carousel-item{
+    width: 400px;
   }
 }
 @media (min-width: 601px) and (max-width: 1023px) {
@@ -75,5 +83,8 @@
   }
   iframe {
     scale: 90%;
+  }
+  .carousel-item{
+    width: 600px;
   }
 }
