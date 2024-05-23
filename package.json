@@ -1,0 +1,25 @@
+{
+  "name": "histof1-sass",
+  "version": "1.0.0",
+  "description": "implementando SASS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nahuflores96/Preentrega2FloresNahuel.git"
+  },
+  "keywords": [
+    "histof1",
+    "auto",
+    "f1",
+    "carrera"
+  ],
+  "author": "Nahuflores96",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nahuflores96/Preentrega2FloresNahuel/issues"
+  },
+  "homepage": "https://github.com/Nahuflores96/Preentrega2FloresNahuel#readme"
+}

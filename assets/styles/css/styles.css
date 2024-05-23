@@ -13,7 +13,7 @@ body {
 }
 
 .fondo2 {
-  background-image: url(./../assets/multimedia/Fondo.jpg);
+  background-image: url(./../../multimedia/Fondo.jpg);
 }
 
 .bordes {
