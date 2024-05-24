@@ -52,6 +52,7 @@ th {
 h2 {
   text-align: center;
 }
+
 table,
 th,
 td {
@@ -59,13 +60,16 @@ td {
   border-collapse: collapse;
   padding: 5px;
 }
+
 th {
   text-align: left;
   background-color: rgb(129, 131, 250);
 }
+
 td {
   background-color: #211f2a;
 }
+
 table {
   width: auto;
   height: auto;
@@ -78,8 +82,6 @@ ul li a {
   text-shadow: 2px 1px 3px rgba(205, 242, 255, 0.438);
   text-decoration: none;
 }
-
-/*box model*/
 
 .header__logo {
   width: 80px;
@@ -96,6 +98,7 @@ ul li a {
   display: inline-block;
   font-size: 140%;
 }
+
 .header__menu {
   width: 800px;
   height: 55px;
@@ -111,10 +114,12 @@ ul li a {
   height: 100px;
   text-align: center;
 }
+
 .footer_titulo {
   width: 350px;
   height: 60px;
 }
+
 .box_formulario {
   width: 410px;
   height: 400px;
@@ -124,7 +129,6 @@ ul li a {
   height: 450px;
   width: 260px;
 }
-/*flex_box*/
 
 .flex_box {
   display: flex;
@@ -147,8 +151,6 @@ ul li a {
   margin-top: 50px;
 }
 
-/*Grid*/
-
 .grid {
   display: grid;
   width: 95%;
@@ -166,7 +168,6 @@ ul li a {
   text-align: center;
 }
 
-/*pseudoclases*/
 ul li a:active,
 img:active,
 input:focus {
@@ -182,6 +183,9 @@ iframe:hover {
 a:hover {
   font-size: 110%;
 }
+
 h1:hover {
   font-size: 200%;
 }
+
+/*# sourceMappingURL=styles.css.map */
