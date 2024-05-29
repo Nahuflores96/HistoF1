@@ -9,11 +9,11 @@ body {
 }
 
 .fondo1 {
-  background-color: #211f2a;
+  background-color: #E50914;
 }
 
 .fondo2 {
-  background-image: url(./../../multimedia/Fondo.jpg);
+  background-color: #292f33;
 }
 
 .bordes {
@@ -21,7 +21,6 @@ body {
   border-radius: 10px;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -33,7 +32,7 @@ textarea,
 label,
 legend,
 select {
-  color: rgb(212, 227, 255);
+  color: #F5F5F1;
   text-shadow: 2px 2px black;
 }
 
@@ -41,6 +40,7 @@ h1 {
   text-shadow: 5px 2px 3px rgba(136, 156, 164, 0.438);
   margin: 0;
   padding: 0;
+  color: #221f1f;
 }
 
 button,
@@ -63,7 +63,7 @@ td {
 
 th {
   text-align: left;
-  background-color: rgb(129, 131, 250);
+  background-color: #211f2a;
 }
 
 td {
@@ -78,8 +78,8 @@ table {
 
 ul li a {
   margin-right: 10px;
-  color: rgb(129, 131, 250);
-  text-shadow: 2px 1px 3px rgba(205, 242, 255, 0.438);
+  color: #211f2a;
+  text-shadow: 2px 1px 3px white;
   text-decoration: none;
 }
 
@@ -176,7 +176,7 @@ input:focus {
 
 img:hover,
 iframe:hover {
-  border-color: rgb(129, 131, 250);
+  border-color: #00784D;
   border-radius: 40px;
 }
 
