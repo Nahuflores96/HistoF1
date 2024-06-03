@@ -8,8 +8,43 @@ body {
   box-sizing: border-box;
 }
 
+.rotate {
+  animation: rotate 3s infinite alternate;
+  position: relative;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.move {
+  animation: move 5s infinite alternate;
+  position: relative;
+}
+
+@keyframes move {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100px;
+  }
+}
+.transition-color {
+  color: #f5f5f1;
+  transition: color 1s ease;
+}
+
+.transition-color:hover {
+  color: black;
+}
+
 .fondo1 {
-  background-color: #E50914;
+  background-color: #e50914;
 }
 
 .fondo2 {
@@ -28,10 +63,14 @@ body {
   background-color: #292f33;
 }
 
+.fondo6 {
+  background-image: linear-gradient(#292f33, rgb(156, 6, 6));
+}
+
 .bordes, table,
 th,
 td {
-  border: 5px ridge black;
+  border: 3px ridge black;
   border-radius: 10px;
 }
 
@@ -59,6 +98,14 @@ td {
   background-color: #55acee;
 }
 
+.rotatex {
+  transform: rotatex(50deg);
+}
+
+.skew {
+  transform: skew(2deg, 2deg);
+}
+
 h2,
 h3,
 h4,
@@ -79,16 +126,17 @@ h1 {
   margin: 0;
   padding: 0;
   color: #221f1f;
+  transition: color 2s ease;
+}
+
+h1:hover {
+  color: #f5f5f1;
 }
 
 button,
 body,
 th {
   background-color: black;
-}
-
-h2 {
-  text-align: center;
 }
 
 table,
@@ -204,24 +252,48 @@ ul li a {
   text-align: center;
 }
 
+p {
+  transition: color 2s ease;
+}
+
+p:hover {
+  color: red;
+}
+
+h2,
+h3 {
+  text-align: center;
+  transition: color 2s ease;
+}
+
+h2:hover,
+h3:hover {
+  color: black;
+}
+
 ul li a:active,
 img:active,
 input:focus {
   background-color: rgb(212, 227, 255);
 }
 
+img,
+iframe {
+  transition: border-radius 1s ease;
+}
+
 img:hover,
 iframe:hover {
   border-color: red;
-  border-radius: 40px;
+  border-radius: 60px;
 }
 
-a:hover {
-  font-size: 110%;
+ul li {
+  transition: transform 2s ease;
 }
 
-h1:hover {
-  font-size: 200%;
+ul li:hover {
+  transform: scale(1.2);
 }
 
 /*# sourceMappingURL=styles.css.map */
