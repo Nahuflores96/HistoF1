@@ -22,16 +22,16 @@ body {
   }
 }
 .move {
-  animation: move 5s infinite alternate;
+  animation: move 1s infinite alternate;
   position: relative;
 }
 
 @keyframes move {
   0% {
-    left: 0;
+    left: 80px;
   }
   100% {
-    left: 100px;
+    left: 120px;
   }
 }
 .transition-color {
