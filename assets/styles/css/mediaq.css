@@ -16,7 +16,9 @@
   .pilotos {
     width: 80vw;
   }
-
+  table {
+    scale: 80%;
+  }
   .grid {
     display: flex;
     flex-flow: column wrap;
