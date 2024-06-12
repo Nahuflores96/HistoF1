@@ -28,10 +28,10 @@ body {
 
 @keyframes move {
   0% {
-    left: 20px;
+    left: 1px;
   }
   100% {
-    left: 40px;
+    left: 15px;
   }
 }
 .transition-color {
@@ -71,8 +71,7 @@ body {
   background-image: url(./../../multimedia/Histof1.jpg);
 }
 
-.bordes,
-table,
+.bordes, table,
 th,
 td {
   border: 3px ridge black;

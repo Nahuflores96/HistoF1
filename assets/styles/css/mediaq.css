@@ -2,32 +2,53 @@
   .flex_box {
     flex-flow: column wrap;
     text-align: center;
-    height: 300px;
+    width: 100vw;
   }
   .header__menu,
   .main_subtitulo {
-    width: 100vw;
+    width: 90vw;
+    height: 30vh;
   }
   p,
   h2,
-  h3 {
-    scale: 70%;
+  h3,
+  h4 {
+    scale: 60%;
+  }
+  h1 {
+    scale: 90%;
   }
   .pilotos {
     width: 80vw;
   }
-  table {
+  .form-control,
+  .form-select {
+    width: 65vw;
+  }
+  .valid-feedback,audio,button{
     scale: 80%;
   }
+  label{
+    scale: 75%;
+  }
+  .invalid-feedback{
+    scale: 75%;
+  }
+  img {
+    scale: 80%;
+  }
+
+  table,iframe {
+    scale: 50%;
+  }
+ 
   .grid {
     display: flex;
     flex-flow: column wrap;
   }
-  iframe {
-    scale: 60%;
-  }
+ 
   .carousel-item {
-    width: 300px;
+    width: 260px;
   }
 }
 
