@@ -41,7 +41,7 @@ body {
   color: black;
 }
 @mixin sombras {
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 1px black;
 }
 @for $i from 1 through length($colors) {
   .fondo#{$i} {
@@ -122,7 +122,6 @@ table,
 th,
 td {
   @extend .bordes;
-  padding: 3px;
 }
 th {
   text-align: left;
@@ -132,8 +131,7 @@ td {
   background-color: #211f2a;
 }
 table {
-  width: 400px;
-  height: 400px;
+  width: 200px;
   margin: 0 auto;
 }
 
@@ -183,8 +181,9 @@ ul li a {
 }
 
 .box_campeon {
-  height: 450px;
+  height: 300px;
   width: 260px;
+ 
 }
 .flex_box {
   display: flex;

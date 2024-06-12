@@ -25,28 +25,33 @@
   .form-select {
     width: 65vw;
   }
-  .valid-feedback,audio,button{
+  .valid-feedback,
+  audio,
+  button {
     scale: 80%;
   }
-  label{
+  label {
     scale: 75%;
   }
-  .invalid-feedback{
+  .invalid-feedback {
     scale: 75%;
   }
   img {
     scale: 80%;
   }
 
-  table,iframe {
+  #tabla {
+    scale: 60%;
+  }
+  iframe {
     scale: 50%;
   }
- 
+
   .grid {
     display: flex;
     flex-flow: column wrap;
   }
- 
+
   .carousel-item {
     width: 260px;
   }
