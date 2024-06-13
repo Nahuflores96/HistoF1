@@ -76,6 +76,11 @@ th,
 td {
   border: 3px ridge black;
   border-radius: 10px;
+  box-shadow: 0 0 20px black;
+}
+
+.sombra {
+  box-shadow: 0 0 30px black;
 }
 
 .bordes-ridge {

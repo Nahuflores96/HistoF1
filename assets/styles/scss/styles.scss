@@ -67,8 +67,11 @@ body {
 .bordes {
   border: 3px ridge black;
   border-radius: 10px;
+  box-shadow: 0 0 20px black;
 }
-
+.sombra{
+  box-shadow: 0 0 30px black;
+}
 @each $key, $valor in $bordes {
   .bordes-#{$key} {
     border: $valor;
@@ -183,7 +186,6 @@ ul li a {
 .box_campeon {
   height: 300px;
   width: 260px;
- 
 }
 .flex_box {
   display: flex;

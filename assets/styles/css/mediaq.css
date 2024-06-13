@@ -55,6 +55,7 @@
   .carousel-item {
     width: 260px;
   }
+
 }
 
 @media (min-width: 481px) and (max-width: 600px) {
