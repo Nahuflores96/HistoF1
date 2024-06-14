@@ -69,7 +69,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 20px black;
 }
-.sombra{
+.sombra {
   box-shadow: 0 0 30px black;
 }
 @each $key, $valor in $bordes {
