@@ -51,11 +51,9 @@
     display: flex;
     flex-flow: column wrap;
   }
-
   .carousel-item {
     width: 260px;
   }
-
 }
 
 @media (min-width: 481px) and (max-width: 600px) {

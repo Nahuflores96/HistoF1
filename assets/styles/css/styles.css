@@ -276,7 +276,7 @@ h3:hover {
 ul li a:active,
 img:active,
 input:focus {
-  background-color: rgb(212, 227, 255);
+  background-color: rgb(116, 120, 128);
 }
 
 img,
